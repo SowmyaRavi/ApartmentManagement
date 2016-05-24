@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_recyclerview_bg">#70d2f0c7</color>
+    <color name="white">#ffffffff</color>
+    <color name="Black">#000000</color>
+    <color name="color_tenants">#70f0d1c7</color>
+    <color name="color_maroon">#800000</color>
+    <color name="aptNumber">#999999</color>
+    <color name="name">#222222</color>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_recyclerview_bg"
+        tools:context="com.example.piyushravi.finalapartment.UserScreen">
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#1F5885">
+
+
+            <Button
+                android:id="@+id/slider"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/more" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:textColor="#fff"
+                android:text="Welcome  "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="6dp"
+            android:layout_below="@+id/rel1"
+            android:background="#83ABEC" />
+
+        <android.support.v4.widget.DrawerLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/drawer_layout"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view1">
+            <RelativeLayout
+                android:id="@+id/content_frame"
+                android:layoutDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/post_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" >
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome_message"
+                    android:id="@+id/textView"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_maroon"
+                    android:textStyle="normal"
+                   android:fontFamily="sans-serif-medium"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/post_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_details"
+                    android:textColor="@color/color_maroon"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:id="@+id/textView2"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="71dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_number"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_maroon"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal|italic|bold"
+                    android:id="@+id/textView3"
+                    android:layout_below="@+id/textView2"
+                    android:layout_centerHorizontal="true" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/left_drawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:background="#E6555555"
+                android:layout_marginLeft="50dp"
+                android:clickable="true"
+                android:layout_gravity="right" >
+
+
+
+                <View
+                    android:id="@+id/separatora"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#D8D8D8" />
+
+                <ListView
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/separatora"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="2dp"
+                    android:scrollingCache="false" />
+            </RelativeLayout>
+
+
+
+        </android.support.v4.widget.DrawerLayout>
+
+
+</RelativeLayout>

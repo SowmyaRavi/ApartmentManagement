@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/dialog_flatno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_flatno"
+        android:inputType="number"
+        android:textColor="@color/color_maroon"/>
+
+    <EditText
+        android:id="@+id/dialog_tenant_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_tenant_first_name_hint"
+        android:inputType="textCapWords"
+        android:textColor="@color/color_maroon"/>
+
+    <EditText
+        android:id="@+id/dialog_tenant_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_tenant_last_name_hint"
+        android:inputType="textCapWords"
+        android:textColor="@color/color_maroon"/>
+
+    <EditText
+        android:id="@+id/dialog_tenant_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_tenant_email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/color_maroon"/>
+
+    <EditText
+        android:id="@+id/dialog_tenant_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_tenant_password"
+        android:inputType="text"
+        android:textColor="@color/color_maroon"/>
+    <EditText
+        android:id="@+id/dialog_house_rent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_house_rent"
+        android:inputType="numberDecimal"
+        android:textColor="@color/color_maroon"/>
+</LinearLayout>

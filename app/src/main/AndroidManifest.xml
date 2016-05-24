@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.piyushravi.finalapartment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/home"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminScreen" />
+        <activity android:name=".UserScreen" />
+        <activity
+            android:name=".ManageTenant"
+            android:parentActivityName=".AdminScreen" />
+        <activity
+            android:name=".PayRent"
+            android:parentActivityName=".UserScreen" />
+        <activity
+            android:name=".RepairManage"
+            android:parentActivityName=".AdminScreen" />
+        <activity
+            android:name=".ParkingRequest"
+            android:parentActivityName=".AdminScreen" />
+        <activity
+            android:name=".TenantInbox"
+            android:parentActivityName=".UserScreen" />
+        <activity android:name=".EventView"
+            android:parentActivityName=".AdminScreen"/>
+        <activity android:name=".UserEventView"
+            android:parentActivityName=".UserScreen"/>
+    </application>
+
+</manifest>

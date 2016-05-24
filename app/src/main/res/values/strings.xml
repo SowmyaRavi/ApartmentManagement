@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Apartment Management</string>
+    <string name="remove">Remove</string>
+    <string name="user_zone">Tenants Zone</string>
+    <string name="admin_zone">Admin Zone</string>
+    <string name="repair_request">Repair Requests</string>
+    <string name="payment">Payment</string>
+    <string name="event">Events</string>
+    <string name="inbox">Inbox</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="parking_request">Parking Requests</string>
+    <string name="welcome_message"> Thank you for using our app. Now you are provided with options to Pay Rent online,
+        place any Repair Request in your apartment or request for extra Parking Place and you can also receive Messages/Notifications from the admin
+    </string>
+    <string name="contact_details">If you find any difficulties in using this app please don\'t hesitate to Contact Us:</string>
+    <string name="contact_number">sowmyan5585@gmail.com</string>
+    <string name="admin_welcomemsg">Welcome Admin,You are privilaged to add/edit/delete tenant and
+        view any repair requests or parking requests from tenants. You can also send notification and set event to tenants</string>
+
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="signup_error_message">Please make sure you enter an email address and password!</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="signup_success">Account successfully created! You can now Login.</string>
+    <string name="login_error_message">Please make sure you enter an email address and password!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="admin_login_button_label">Admin Login</string>
+    <string name="tenant_login_button_label">Tenants Login</string>
+    <string name="remove_question_format">Remove %s?</string>
+    <string name="remove_question_format_repair">Remove this Request?</string>
+
+
+    <string name="sign_up_text">Sign Up!</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="add_item">Add New Item</string>
+    <string name="action_logout">Logout</string>
+
+
+    <string name="dialog_tenant_add_title">Add Tenant</string>
+    <string name="dialog_tenant_edit_title">Edit Tenant</string>
+    <string name="dialog_tenant_first_name_hint">First name</string>
+    <string name="dialog_tenant_last_name_hint">Last name</string>
+    <string name="dialog_tenant_email">Email</string>
+    <string name="dialog_tenant_password">Password</string>
+    <string name="dialog_flatno">FlatNo</string>
+    <string name="dialog_house_rent">Rent</string>
+
+    <string-array name="array_complaint_area">
+        <item></item>
+        <item>Carpenter</item>
+        <item>Kitchen</item>
+        <item>Plumber</item>
+        <item>Bathroom</item>
+        <item>Other</item>
+    </string-array>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_recyclerview_bg"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:id="@+id/adminLogout"
+        android:layout_gravity="right"
+        android:background="@drawable/logout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_welcomemsg"
+        android:id="@+id/textView4"
+        android:textColor="@color/color_maroon"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"  android:layout_margin="15dp"
+            android:background="@drawable/user_add"
+            />
+
+        <Button
+            android:id="@+id/send_notification"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:background="@drawable/notification"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:id="@+id/button2"
+            android:background="@drawable/event"
+            />
+
+        <Button
+            android:id="@+id/parking_request"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:background="@drawable/parking" />
+
+        <Button
+            android:id="@+id/new_repair"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"  android:layout_margin="15dp"
+            android:background="@drawable/new_repair"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
